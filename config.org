@@ -11,8 +11,16 @@
 (setq display-line-numbers-type t)
 #+end_src
 * org
+** org-directory
 #+begin_src emacs-lisp
 (setq org-directory "~/mega/org/")
+#+end_src
+** autosave
+#+begin_src emacs-lisp
+;; Ensure autosave is active globally
+(setq auto-save-default t)
+(setq auto-save-interval 20)  ;; keystrokes before autosave
+(setq auto-save-timeout 2)    ;; seconds of idle before autosave
 #+end_src
 * projectile
 #+begin_src emacs-lisp
