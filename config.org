@@ -1,9 +1,20 @@
+#+title: Config
+
+* Identification
+#+begin_src emacs-lisp
 (setq user-full-name "Simone Tami"
       user-mail-address "simonetami1@gmail.com")
-
+#+end_src
+* Appearance
+#+begin_src emacs-lisp
 (setq doom-theme 'doom-one)
 (setq display-line-numbers-type t)
-
+#+end_src
+* org
+#+begin_src emacs-lisp
 (setq org-directory "~/mega/org/")
-
+#+end_src
+* projectile
+#+begin_src emacs-lisp
 (setq projectile-project-search-path ("~/mega/uni/EE/Tesi/journal/org" . 1))
+#+end_src
